@@ -7,6 +7,13 @@
 //
 
 import UIKit
+import Social
+import MobileCoreServices
+import Alamofire
+import AVFoundation
+import MediaPlayer
+import Photos
+import AssetsLibrary
 
 class ViewController: UIViewController {
 

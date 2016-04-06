@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GrabVideo/ModalViewController.swift"
+            timestampString = "481505147.475973"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GrabVideo.ModalViewController.viewDidLoad (GrabVideo.ModalViewController)() -&gt; ()"
+                  moduleName = "GrabVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luigifcruz/Library/Mobile%20Documents/com~apple~CloudDocs/Trabalhos/Swift/Grabber/GrabVideo/ModalViewController.swift"
+                  timestampString = "471285776.699035"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1100">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GrabVideo.ModalViewController.(viewDidLoad (GrabVideo.ModalViewController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "GrabVideo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luigifcruz/Library/Mobile%20Documents/com~apple~CloudDocs/Trabalhos/Swift/Grabber/GrabVideo/ModalViewController.swift"
+                  timestampString = "471285776.699285"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x1002f0560">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "generic specialization &lt;Swift.String.UnicodeScalarView with Swift.String.UnicodeScalarView : Swift.CollectionType in Swift, Swift.String.UnicodeScalarView.Generator with Swift.String.UnicodeScalarView.Generator : Swift.GeneratorType in Swift, Swift.UnicodeScalar, Swift.String.UnicodeScalarView.Index with Swift.String.UnicodeScalarView.Index : Swift.ForwardIndexType in Swift, Swift.Int with Swift.Int : Swift._SignedIntegerType in Swift, Swift.Int with Swift.Int : Swift._BuiltinIntegerLiteralConvertible in Swift, Swift._DisabledRangeIndex_, Swift.String.UnicodeScalarView with Swift.String.UnicodeScalarView : Swift.Indexable in Swift and Swift.String.UnicodeScalarView : Swift.SequenceType in Swift, Swift.String.UnicodeScalarView.Generator with Swift.String.UnicodeScalarView.Generator : Swift.GeneratorType in Swift, Swift.UnicodeScalar, Swift.String.UnicodeScalarView.Index with Swift.String.UnicodeScalarView.Index : Swift.ForwardIndexType in Swift, Swift.Int with Swift.Int : Swift._SignedIntegerType in Swift, Swift.Int with Swift.Int : Swift._BuiltinIntegerLiteralConvertible in Swift, Swift._DisabledRangeIndex_, Swift.String.UnicodeScalarView, Swift.UnicodeScalar, Swift.UnicodeScalar&gt; of ext.Swift.Swift.CollectionType&lt;A where A: Swift.CollectionType&gt;.prefix &lt;A where A: Swift.CollectionType&gt; (A)(Swift.Int) -&gt; A.SubSequence"
+                  moduleName = "libswiftCore.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

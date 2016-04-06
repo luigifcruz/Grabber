@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="j1y-V4-xli">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Modal View Controller-->
+        <scene sceneID="ceB-am-kn3">
+            <objects>
+                <viewController id="j1y-V4-xli" customClass="ModalViewController" customModule="GrabVideo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8bI-gs-bmD"/>
+                        <viewControllerLayoutGuide type="bottom" id="d5i-Ba-RvD"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="wbc-yd-nQP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TES-ZZ-iLr">
+                                <rect key="frame" x="120" y="251" width="174" height="174"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="vo2-Na-2i5">
+                                    <rect key="frame" x="0.0" y="0.0" width="174" height="174"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting for Server" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKX-Ai-8ZB">
+                                            <rect key="frame" x="8" y="130" width="158" height="25"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
+                                            <color key="textColor" red="0.2997195512820513" green="0.2997195512820513" blue="0.2997195512820513" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cfW-dX-E4a" customClass="ProgressView" customModule="GrabVideo" customModuleProvider="target">
+                                            <rect key="frame" x="42" y="25" width="90" height="90"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CV9-g4-GOF">
+                                            <rect key="frame" x="57" y="57" width="61" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="25" id="VdN-1x-sSe"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                            <color key="textColor" red="0.32982772435897434" green="0.32982772435897434" blue="0.32982772435897434" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ddddsd.png" translatesAutoresizingMaskIntoConstraints="NO" id="tLL-ec-EhA">
+                                            <rect key="frame" x="66" y="50" width="40" height="40"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dots.png" translatesAutoresizingMaskIntoConstraints="NO" id="2KK-B2-npi">
+                                            <rect key="frame" x="32" y="20" width="108" height="108"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="OKX-Ai-8ZB" secondAttribute="bottom" constant="19" id="0Kz-DS-cOA"/>
+                                        <constraint firstItem="cfW-dX-E4a" firstAttribute="leading" secondItem="vo2-Na-2i5" secondAttribute="leading" constant="42" id="3z1-hh-Ydg"/>
+                                        <constraint firstItem="CV9-g4-GOF" firstAttribute="leading" secondItem="vo2-Na-2i5" secondAttribute="leading" constant="57" id="5fU-vw-UHX"/>
+                                        <constraint firstItem="tLL-ec-EhA" firstAttribute="leading" secondItem="vo2-Na-2i5" secondAttribute="leading" constant="66" id="74N-1t-Wgz"/>
+                                        <constraint firstItem="cfW-dX-E4a" firstAttribute="centerX" secondItem="CV9-g4-GOF" secondAttribute="centerX" id="CWL-Ed-88h"/>
+                                        <constraint firstItem="cfW-dX-E4a" firstAttribute="centerY" secondItem="tLL-ec-EhA" secondAttribute="centerY" id="Csx-AI-bIq"/>
+                                        <constraint firstItem="CV9-g4-GOF" firstAttribute="centerY" secondItem="tLL-ec-EhA" secondAttribute="centerY" id="KAb-O8-drn"/>
+                                        <constraint firstItem="CV9-g4-GOF" firstAttribute="centerX" secondItem="OKX-Ai-8ZB" secondAttribute="centerX" id="KRx-aD-x5r"/>
+                                        <constraint firstAttribute="trailing" secondItem="2KK-B2-npi" secondAttribute="trailing" constant="34" id="LWx-A5-OW9"/>
+                                        <constraint firstItem="OKX-Ai-8ZB" firstAttribute="top" secondItem="2KK-B2-npi" secondAttribute="bottom" constant="2" id="M1f-zr-o2t"/>
+                                        <constraint firstItem="OKX-Ai-8ZB" firstAttribute="top" secondItem="tLL-ec-EhA" secondAttribute="bottom" constant="40" id="VGU-VQ-8Yv"/>
+                                        <constraint firstItem="2KK-B2-npi" firstAttribute="centerX" secondItem="tLL-ec-EhA" secondAttribute="centerX" id="c08-Yb-uqu"/>
+                                        <constraint firstItem="2KK-B2-npi" firstAttribute="leading" secondItem="vo2-Na-2i5" secondAttribute="leading" constant="32" id="eJa-Tm-6eT"/>
+                                        <constraint firstItem="OKX-Ai-8ZB" firstAttribute="trailing" secondItem="vo2-Na-2i5" secondAttribute="trailingMargin" id="hlh-hb-phD"/>
+                                        <constraint firstItem="cfW-dX-E4a" firstAttribute="top" secondItem="vo2-Na-2i5" secondAttribute="top" constant="25" id="mIG-nx-o7r"/>
+                                        <constraint firstItem="2KK-B2-npi" firstAttribute="top" secondItem="vo2-Na-2i5" secondAttribute="top" constant="20" id="tCE-PO-chf"/>
+                                        <constraint firstItem="OKX-Ai-8ZB" firstAttribute="top" secondItem="CV9-g4-GOF" secondAttribute="bottom" constant="48" id="xXf-ll-wAW"/>
+                                        <constraint firstItem="OKX-Ai-8ZB" firstAttribute="top" secondItem="cfW-dX-E4a" secondAttribute="bottom" constant="15" id="xce-QZ-J5D"/>
+                                        <constraint firstItem="OKX-Ai-8ZB" firstAttribute="leading" secondItem="vo2-Na-2i5" secondAttribute="leadingMargin" id="zed-bc-wHL"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TES-ZZ-iLr" secondAttribute="height" multiplier="1:1" id="L60-GV-H1N"/>
+                                    <constraint firstAttribute="width" secondItem="TES-ZZ-iLr" secondAttribute="height" multiplier="1:1" id="dtG-Jn-eXX"/>
+                                    <constraint firstAttribute="height" constant="174" id="ktG-5g-SzK"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="TES-ZZ-iLr" firstAttribute="centerY" secondItem="wbc-yd-nQP" secondAttribute="centerY" constant="-30" id="0vW-qd-Gpd"/>
+                            <constraint firstItem="TES-ZZ-iLr" firstAttribute="centerX" secondItem="wbc-yd-nQP" secondAttribute="centerX" id="1Kh-HV-GOw"/>
+                            <constraint firstItem="TES-ZZ-iLr" firstAttribute="centerX" secondItem="wbc-yd-nQP" secondAttribute="centerX" id="Kpt-3S-Y9b"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="Label" destination="OKX-Ai-8ZB" id="Iuu-zS-lj6"/>
+                        <outlet property="ModalView" destination="TES-ZZ-iLr" id="NMe-bx-WFz"/>
+                        <outlet property="Percentage" destination="CV9-g4-GOF" id="RlN-QF-3ZM"/>
+                        <outlet property="Progress" destination="cfW-dX-E4a" id="fhG-8h-DaD"/>
+                        <outlet property="check" destination="tLL-ec-EhA" id="G2f-iR-ge5"/>
+                        <outlet property="dots" destination="2KK-B2-npi" id="TKf-mv-S8O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CEy-Cv-SGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ddddsd.png" width="586" height="586"/>
+        <image name="dots.png" width="540" height="540"/>
+    </resources>
+</document>
