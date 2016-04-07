@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "550EB486050E5CF9970DEEA3FE4DBFA46F868733",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "550EB486050E5CF9970DEEA3FE4DBFA46F868733" : 0,
+    "2B980D4C1C99B9C8FD3282AA9D3A17163BB13560" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "976A274B-22B8-40D9-A30D-B91ADB919AB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "550EB486050E5CF9970DEEA3FE4DBFA46F868733" : "Grabber\/",
+    "2B980D4C1C99B9C8FD3282AA9D3A17163BB13560" : "..\/AEX\/App\/AEX"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Grabber",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Grabber.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/luigifreitas\/AEX-iOS-App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B980D4C1C99B9C8FD3282AA9D3A17163BB13560"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/luigifreitas\/Grabber---Download-Manager-for-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "550EB486050E5CF9970DEEA3FE4DBFA46F868733"
+    }
+  ]
+}
